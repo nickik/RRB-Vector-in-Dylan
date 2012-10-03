@@ -1,1 +1,21 @@
 RRB Vector implmentation
+
+A implementation of a Persistent Vector. A Persistent Vector is an immutable Datastructure that has fast random access and fast insertion at the end.
+
+A RRB Vector is an immutable Datastructure that has fast random access and fast insertion at the end, plus fast spliting and joining (meaning reasonably fast random insertions).
+
+Random Accsess: O(log32(n)) 
+Insertion: O(log32(n))
+Split & Join: O(log(n))
+
+
+For most practical perposes O(log32(n)) is constant.
+
+
+My objectives:
+- Learn Dylan (polymorthic collection implmentations)
+- Give Dylan a better Collections library (specially for the multithreaded world and functional programming)
+
+My implmentation is directly from the paper, with no working code as a example.
+
+The Paper can be found in this Reposotory.
